@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box-1{
+  height:100vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-1{
+  cursor: pointer;
+}
+.section-2{
+  cursor: pointer;
+}
+.box-2{
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

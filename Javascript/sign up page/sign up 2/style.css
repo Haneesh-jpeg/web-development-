@@ -1,0 +1,137 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:#450F0F;
+}
+
+.text h1{
+position: absolute;
+width: 278px;
+height: 108px;
+left: 150px;
+top: 200px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 108px;
+color: white;
+}
+
+.text p{
+position: absolute;
+width: 603px;
+height: 91px;
+left: 150px;
+top: 340px;
+color: white;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+
+.box{
+position: absolute;
+width: 450px;
+height: 550px;
+left: 900px;
+top: 90px;
+background: white;
+border-radius: 47px;
+
+}
+
+.input-1{
+  position: relative;
+  top:50px;
+  right: -40px;
+
+}
+.input-2{
+  position: relative;
+  top:80px;
+  right: -40px;
+
+}
+.input-3{
+  position: relative;
+  top:110px;
+  right: -40px;
+
+}
+
+.input-4{
+  position: relative;
+  top:140px;
+  right: -40px;
+
+}
+
+.box input[type=text]{
+  width: 376px;
+  height: 39px;
+  border: 1px solid #000000;
+  padding-top:10px ;
+  padding-bottom: 10px;
+  border-radius: 41px;
+  margin: 8px 0;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 20pt;
+}
+
+.box input[type="text"]::placeholder{
+  font-family: 'Montserrat';
+  font-style: italic;
+  position: absolute;
+  right: 270px;
+
+}
+
+.box input[type=email]{
+  width: 376px;
+  height: 39px;
+  border: 1px solid #000000;
+  padding-top:10px ;
+  padding-bottom: 10px;
+  border-radius: 41px;
+  margin: 8px 0;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 20pt;
+}
+
+.box input[type="email"]::placeholder{
+  font-family: 'Montserrat';
+  font-style: italic;
+  position: absolute;
+  right: 240px;
+  font-size: 16px;
+}
+
+.box input[type=password]{
+  width: 376px;
+  height: 39px;
+  border: 1px solid #000000;
+  padding-top:10px ;
+  padding-bottom: 10px;
+  border-radius: 41px;
+  margin: 8px 0;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 20pt;
+}
+
+.box input[type="password"]::placeholder{
+  font-family: 'Montserrat';
+  font-style: italic;
+  position: absolute;
+  right: 274px;
+  font-size: 16px;
+}
